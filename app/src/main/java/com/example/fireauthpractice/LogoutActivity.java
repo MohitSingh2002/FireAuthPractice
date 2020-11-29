@@ -23,7 +23,7 @@ public class LogoutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityLogoutBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.activity_logout);
+        setContentView(binding.getRoot());
 
         binding.logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
